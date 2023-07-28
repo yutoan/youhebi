@@ -1,0 +1,44 @@
+body {
+    background: black;
+}
+
+.logo {
+    color: white;
+    font-size: 100px;
+    width: 50%;
+    margin: 5% auto;
+    text-align: center;
+    opacity: 0;
+}
+
+.cz, .zz, .logo {
+    animation: loading 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes loading {
+    100% {
+        opacity: 1;
+    }
+}
+
+.zz, .cz {
+    font-size: 50px;
+    color: white;
+    background: #555;
+    text-decoration: none;
+    opacity: 0;
+    display: block;
+    text-align: center;
+}
+
+.zz {
+    width: 27.5%;
+    margin: 7.5% auto;
+}
+
+.cz {
+
+    width: 30%;
+    margin: 12.5 auto;
+}
